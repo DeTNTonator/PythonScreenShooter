@@ -147,9 +147,10 @@ def setup_region():
 
 def process_intro():
     print("\nWelcome to simple python screen shooter by DominJgon\n\n")
+    print(f'Type "{os.path.basename(__file__)} --help" to see manual.')
     print("In order to change settings head into file section #setup.")
     #print("Before using make sure previous screenshots were saved outside of directory\n")
-    print("Screen shooter currently supports only one/primary display.")
+    print("Screen shooter currently supports only primary display.")
     time.sleep(1)
 
 def process_ready():
