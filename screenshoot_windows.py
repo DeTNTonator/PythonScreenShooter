@@ -154,7 +154,7 @@ def process_intro():
     time.sleep(1)
 
 def process_ready():
-    print("\nCTR+ALT+P to take screenshot, CTR+PAUSE or CTR+ALT+Q to quit.\n")
+    print("\nCTR+ALT+P to take screenshot, CTR+PAUSE quit.\n")
 
 def main():
     process_intro()
